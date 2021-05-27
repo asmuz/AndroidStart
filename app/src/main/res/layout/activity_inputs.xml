@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,7 +14,8 @@
         android:inputType="text"
         android:text="text"
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:autofillHints="Hint 1" />
 
     <EditText
         android:id="@+id/editText_02"
@@ -23,7 +25,8 @@
         android:inputType="textPersonName"
         android:text="textPersonName"
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:autofillHints="Hint 2" />
 
     <EditText
         android:id="@+id/editText_03"
@@ -33,7 +36,8 @@
         android:inputType="phone"
         android:text="phone"
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:autofillHints="Hint 3" />
 
     <EditText
         android:id="@+id/editText_04"
@@ -43,7 +47,8 @@
         android:inputType="number"
         android:text="number"
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:autofillHints="Hint 4" />
 
     <EditText
         android:id="@+id/editText_05"
@@ -53,7 +58,8 @@
         android:inputType="textPassword"
         android:text="textPassword"
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:autofillHints="Hint 5" />
 
     <EditText
         android:id="@+id/editText_06"
@@ -63,7 +69,9 @@
         android:inputType="textEmailAddress"
         android:text="textEmailAddress "
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:autofillHints="Hint 6"
+        tools:ignore="LabelFor" />
 
 
 
