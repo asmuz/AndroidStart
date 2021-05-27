@@ -23,7 +23,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:text="@string/edit_text" />
+        android:text="@string/edit_text"
+        android:autofillHints="Hints"
+        android:inputType="text" />
 
     <Button
         android:id="@+id/button_01"
