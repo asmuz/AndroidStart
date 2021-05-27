@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Lesson_01</string>
+    <string name="app_name">AsmuZ Lesson 01</string>
+    <string name="button_01">Button 01</string>
+    <string name="simple_switcher">Simple Switcher</string>
+    <string name="hello">AsmuZ says Hello World!</string>
+    <string name="edit_text">Edit Text</string>
+    <string name="checkbox_01">Checkbox 01</string>
+    <string name="toggle_button">Toggle Button</string>
+    <string name="button_02">Switch Activity</string>
+    <string name="switch_activity">Switch Activity</string>
 </resources>
